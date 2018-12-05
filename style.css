@@ -12,8 +12,7 @@ Tags:
  * Globals
  */
 h1,
-h2,
-.sidenav {
+h2 {
   font-family: "Cinzel", serif !important;
 }
 html,
@@ -62,9 +61,12 @@ ul li:hover ul li {
   color: white !important;
   height: auto !important;
 }
-.white-text li a {
+.white-text a {
   color: white !important;
   overflow: visible;
+}
+.white-text {
+  color: white !important;
 }
 
 .border-white {
@@ -94,7 +96,15 @@ ul li:hover ul li {
 }
 
 .sidenav {
-  width: 60%;
+  width: 80%;
+  overflow-y: scroll;
+}
+
+.m-nav-link {
+  padding-left: 1rem;
+}
+.m-nav-link:hover {
+  background-color: #1f8ee7;
 }
 
 .comment {
@@ -291,6 +301,19 @@ ul li:hover ul li {
   padding-left: 0px !important;
 }
 
+a[href^="tel"] {
+  color: inherit !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+@media screen and (max-width: 395px) {
+  .sidenav {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 600px) {
   .brand-logo {
     font-size: 1rem !important;
@@ -354,229 +377,14 @@ ul li:hover ul li {
     margin-left: 0 !important;
   }
 }
-
 @media screen and (max-width: 420px) {
   .brand-logo {
     display: none !important;
-  }
-}
-@media screen and (max-width: 870px) {
-  .xp-1 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 650px) {
-  .xp-2 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 551px) {
-  .xp-3 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 531px) {
-  .xp-1 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 531px) {
-  .xp-6 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 510px) {
-  .xp-4 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 505px) {
-  .xp-7 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 490px) {
-  .xp-5 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 460px) {
-  .xp-8 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 456px) {
-  .xp-9 {
-    min-height: 100px;
   }
 }
 
 @media screen and (max-width: 475px) {
   .call-btn {
     min-height: 80px !important;
-  }
-}
-@media screen and (max-width: 432px) {
-  .xp-10 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 414px) {
-  .xp-2 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 398px) {
-  .xp-11 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 395px) {
-  .sidenav {
-    width: 80%;
-  }
-  .xp-2 {
-    min-height: 100px;
-  }
-  .xp-9,
-  .xp-10,
-  .xp-11,
-  .xp-5,
-  .xp-7,
-  .xp-8 {
-    min-height: 50px;
-  }
-}
-@media screen and (max-width: 377px) {
-  .xp-7 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 365px) {
-  .xp-5,
-  .xp-13 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 344px) {
-  .xp-8 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 344px) {
-  .xp-9 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 323px) {
-  .xp-10 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 309px) {
-  .xp-2 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 296px) {
-  .xp-11 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 295px) {
-  .xp-1 {
-    min-height: 200px;
-  }
-}
-@media screen and (max-width: 283px) {
-  .xp-6 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 275px) {
-  .xp-7 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 271px) {
-  .xp-3 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 265px) {
-  .xp-12 {
-    min-height: 100px;
-  }
-  .xp-5 {
-    min-height: 150px;
-  }
-}
-
-@media screen and (max-width: 259px) {
-  .xp-1 {
-    min-height: 250px;
-  }
-  .xp-2 {
-    min-height: 200px;
-  }
-}
-@media screen and (max-width: 256px) {
-  .xp-13 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 253px) {
-  .xp-4 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 245px) {
-  .xp-1 {
-    min-height: 300px;
-  }
-}
-@media screen and (max-width: 239px) {
-  .xp-9,
-  .xp-8 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 232px) {
-  .xp-10 {
-    min-height: 150px;
-  }
-}
-@media screen and (max-width: 228px) {
-  .xp-14 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 225px) {
-  .xp-14 {
-    min-height: 100px;
-  }
-  .xp-1 {
-    min-height: 350px;
-  }
-}
-
-@media screen and (max-width: 213px) {
-  .sidenav .collapsible-body a,
-  .sidenav li a,
-  .sidenav .collapsable-header {
-    padding-left: 4px !important;
-  }
-  .sidenav {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 191px) {
-  .xp-15 {
-    min-height: 100px;
-  }
-}
-@media screen and (max-width: 167px) {
-  .xp-4 {
-    min-height: 200px;
   }
 }

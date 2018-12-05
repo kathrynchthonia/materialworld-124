@@ -31,6 +31,8 @@
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <!-- Prevent browser from autoformatting phone numbers -->
+    <meta name="format-detection" content="telephone=no">
     
     <title><?php bloginfo('name'); ?> |
     <?php is_front_page() ? bloginfo('description') : 

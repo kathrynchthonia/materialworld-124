@@ -24,10 +24,10 @@
 
     <!-- Call now -->
     <div class="row scrollspy" id='contact'>
-      <div class="col s6 offset-s3 center py-15">
-        <a href='<?php echo get_theme_mod('btn_url', 'tel:+1-877-549-1212'); ?>' class="btn call-btn green darken-1 waves-effect waves-light z-depth-3 sr3">
+      <div class="col white-text s6 offset-s3 center py-15">
+        <a href='<?php echo get_theme_mod('btn_url', 'tel:+1-877-549-1212'); ?>' class="btn call-btn white-text green darken-1 waves-effect waves-light z-depth-3 sr3">
         <?php echo get_theme_mod('showcase_cta', 'Call Now '); ?>
-        <nobr class="bold"><?php echo get_theme_mod('showcase_blue', '877-549-1212'); ?>
+        <nobr class="white-text underline"><?php echo get_theme_mod('showcase_blue', '877-549-1212'); ?>
         </nobr> 
         </a>
       </div>
